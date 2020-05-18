@@ -1,0 +1,45 @@
+{
+  "name": "sbe306-2019porject-sbe306-2021-team07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbme-tutorials/sbe306-2019porject-sbe306-2021-team07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbme-tutorials/sbe306-2019porject-sbe306-2021-team07/issues"
+  },
+  "homepage": "https://github.com/sbme-tutorials/sbe306-2019porject-sbe306-2021-team07#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "googleapis": "^39.2.0",
+    "hbs": "^4.0.6",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "mustache": "^3.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "description": ""
+}

@@ -1,0 +1,156 @@
+
+// For testing
+// Using REST client extension in VS code
+// You can use postman instead
+POST http://localhost:3000/api/patients/add_patient
+content-type: application/json
+
+{
+        "ssn":"11111111111111",
+        "firstName":"something",
+        "lastName":"something",
+        "email":"something4@gmail.com",
+        "gender":"Male",
+        "Dep_phone_number":"123456789011111",
+        "password":"12345678",
+        "history":"something",
+        "entryDate":"2017-09-14",
+        "exitDate":"2017-09-14"
+}
+
+###
+POST http://localhost:3000/api/login/acess
+content-type: application/json
+
+{
+        "email":"something3@gmail.com",
+        "password":"12345678"
+}
+###
+GET http://localhost:3000/api/doctors/
+content-type: application/json
+###
+POST http://localhost:3000/api/doctors/add_doctor
+content-type: application/json
+
+{
+        "ssn":"12345678901236",
+        "title":"something",
+        "salary":1234,
+        "phone_number":12345,
+        "firstName":"something",
+        "lastName":"something",
+        "email":"something3@gmail.com",
+        "gender":"Male",
+        "password":"12345678"
+}
+
+###
+
+POST http://localhost:3000/api/engs/add_eng
+content-type: application/json
+
+{
+        "ssn":"12345678901111",
+        "salary":1234,
+        "phone_number":12345,
+        "firstName":"something",
+        "lastName":"something",
+        "email":"something4@gmail.com",
+        "gender":"Male",
+        "password":"12345678"
+}
+
+###
+
+
+POST http://localhost:3000/api/nurses/add_nurse
+content-type: application/json
+
+{
+        "ssn":"12345678901111",
+        "salary":1234,
+        "phone_number":12345,
+        "firstName":"something",
+        "lastName":"something",
+        "email":"something4@gmail.com",
+        "gender":"Male",
+        "password":"12345678"
+}
+
+###
+
+POST http://localhost:3000/api/equipments/add_equipment
+content-type: application/json
+
+{
+        "equipment_name":"something",
+        "code":"123",
+        "maintanince_date":"2017-09-14",
+        "status":true,
+        "sterileDates":"2017-09-14",
+        "sterileOperation":"something"
+}
+
+###
+
+POST http://localhost:3000/api/feedbacks/add_feedback
+content-type: application/json
+
+{
+     "name":"something",
+     "email":"somethingg@gmail.com",
+     "subject":"something",
+     "message":"something"
+}
+
+###
+
+POST http://localhost:3000/api/mangers/add_manger
+content-type: application/json
+
+{
+        "ssn":"12345678901111",
+        "salary":1234,
+        "phone_number":12345,
+        "firstName":"something",
+        "lastName":"something",
+        "email":"something4@gmail.com",
+        "gender":"Male",
+        "password":"12345678"
+}
+
+###
+POST http://localhost:3000/api/medicines/add_medicine
+content-type: application/json
+
+{       "name":"something2",
+        "quantity":4,
+        "date":"2019-1-2",
+        "dose":"something",
+        "price":2000,
+        "replacements":"something"
+}
+
+###
+POST http://localhost:3000/api/rooms/add_room
+content-type: application/json
+
+{      
+   "room_number":"1233",
+        "vacancyOfRoom":"Empty",
+        "numberOfEquipment":10,
+        "nameOfEquipment":"something"
+}
+
+###
+POST http://localhost:3000/api/patients/assign_patient/5dff398d86a62a4740253a52
+content-type: application/json
+
+{
+      "_id":"5dff3113d47581451409610f"
+}
+
+###
+
+DELETE  http://localhost:3000/api/patients/5dff398d86a62a4740253a52
