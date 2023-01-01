@@ -19,7 +19,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
-    "config": "^3.2.4",
+    "config": "^3.3.8",
     "connect-flash": "^0.1.1",
     "consolidate": "^0.15.1",
     "cookie-parser": "^1.4.4",
